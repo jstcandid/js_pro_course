@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.top_part {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  border-radius: 30%;
+  border: none;
+}
+
+.green {
+  background-color: rgb(133, 153, 133);
+}
+
+.red {
+  background-color: rgb(202, 101, 101);
+}
+
+.text {
+  font-size: 14px;
+}
+
+.reset {
+  background-color: rgb(104, 92, 105);
+  width: 100px;
+  margin: auto;
+  font-size: 30px;
+  border-radius: 20%;
+  border: none;
+}

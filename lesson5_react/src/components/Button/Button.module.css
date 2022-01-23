@@ -1,0 +1,12 @@
+.button {
+  width: 100px;
+  height: 100%;
+  background-color: purple;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: rgba(255, 230, 0, 0.952);
+}
