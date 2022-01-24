@@ -1,0 +1,18 @@
+.button {
+  width: '300px';
+  background-color: 'purple';
+  font-size: '16px';
+  font-family: 'cursive';
+}
+
+.primary {
+  background-color: bisque;
+}
+
+.secondary {
+  background-color: blanchedalmond;
+}
+
+.error {
+  background-color: chocolate;
+}
