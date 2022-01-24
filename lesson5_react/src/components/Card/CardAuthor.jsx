@@ -1,8 +1,4 @@
-import styles from './Card_author.module.css';
-export function Card({ title, subtitle, author }) {
-  // const onClick = () => {
-  //   alert('You clicked n an image');
-  // };
+export function CardAuthor({ title, subtitle, author }) {
   return (
     <div className='card text-center w-25  '>
       <div className='card-body px-5'>

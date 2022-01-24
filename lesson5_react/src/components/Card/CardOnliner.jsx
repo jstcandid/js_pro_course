@@ -1,7 +1,7 @@
-import styles from './Card_onliner.module.css';
-import { Button2 } from '../Button/Button';
+import styles from './CardOnliner.module.css';
+import { Button } from '../Button/Button';
 
-export function Card_onliner({
+export function CardOnliner({
   title,
   backgroundImageUrl,
   category,
@@ -16,7 +16,7 @@ export function Card_onliner({
       className={`${styles.container} ${styles.background1}`}
     >
       <div className={`${styles.header}`}>
-        <Button2 text={category} onClick={onClick} />
+        <Button text={category} onClick={onClick} />
         <div className={`${styles.comment_both}`}>
           <img
             className={`${styles.comment}`}

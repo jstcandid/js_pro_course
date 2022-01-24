@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import './App.css';
-import { CardTime } from './components/Card/Card_time';
+import { CardTime } from './components/Card/CardTime';
 import {
   AuthorList,
   FacebookList,
@@ -20,7 +20,7 @@ function App() {
   const onClickBtnOnliner = () => {
     alert('Btn clicked');
   };
-  // // const onChangeText = (event) => setText(event.target.value);
+
   return (
     <div className=''>
       <AuthorList />

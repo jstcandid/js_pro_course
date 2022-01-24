@@ -1,0 +1,13 @@
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.border {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,4 +1,4 @@
-export function Card1({
+export function CardFacebook({
   name,
   postDescription,
   location,

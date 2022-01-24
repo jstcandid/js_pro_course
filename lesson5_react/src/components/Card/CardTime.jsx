@@ -1,5 +1,4 @@
-import { authorCards } from '../CardLists/Constants';
-import styles from './Card_time.module.css';
+import styles from './CardTime.module.css';
 export function CardTime({ date }) {
   return (
     <div className={`${styles.container}`}>
