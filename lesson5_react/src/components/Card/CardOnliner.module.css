@@ -1,0 +1,50 @@
+.container {
+  width: 750px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.background1 {
+  padding: 20px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 40px;
+}
+.comment {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.comment_both {
+  width: 50px;
+  position: relative;
+}
+.commentText {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  color: #ecde44;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 9;
+}
+
+.mainText {
+  color: aliceblue;
+}
